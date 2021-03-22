@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using Siren.Utilities.Editor;
 using UnityEditor;
 using UnityEngine;
@@ -94,3 +95,4 @@ namespace Siren.Editor
 		}
 	}
 }
+#endif

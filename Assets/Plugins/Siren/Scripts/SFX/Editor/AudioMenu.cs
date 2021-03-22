@@ -1,5 +1,5 @@
+#if UNITY_EDITOR
 using UnityEditor;
-using Siren.Utilities.Editor;
 
 namespace Siren.Editor
 {
@@ -15,3 +15,4 @@ namespace Siren.Editor
         }
     }
 }
+#endif

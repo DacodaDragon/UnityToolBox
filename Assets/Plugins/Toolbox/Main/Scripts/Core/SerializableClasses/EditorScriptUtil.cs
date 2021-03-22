@@ -1,8 +1,9 @@
-﻿using UnityEditor;
+﻿#if UNITY_EDITOR
+using UnityEditor;
 using UnityEngine;
 using System.Reflection;
 
-namespace ToolBox
+namespace ToolBox.Editor
 {
     public partial class GenericTypeEditor
     {
@@ -28,3 +29,4 @@ namespace ToolBox
         }
     }
 }
+#endif

@@ -1,4 +1,5 @@
-﻿using Siren.Utilities.Editor;
+﻿#if UNITY_EDITOR
+using Siren.Utilities.Editor;
 
 namespace Siren.Editor
 {
@@ -20,4 +21,4 @@ namespace Siren.Editor
         // generic typing in EditorWindow.CreateInstance
     }
 }
-
+#endif

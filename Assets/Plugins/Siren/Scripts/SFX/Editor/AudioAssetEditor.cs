@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Audio;
@@ -211,3 +212,4 @@ namespace Siren.Editor
 		}
 	}
 }
+#endif

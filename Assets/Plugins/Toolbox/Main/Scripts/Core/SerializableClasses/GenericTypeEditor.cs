@@ -1,10 +1,7 @@
-﻿using UnityEditor;
-using UnityEngine.UIElements;
-using UnityEditor.UIElements;
+﻿#if UNITY_EDITOR
+using UnityEditor;
 using System.Linq;
 using UnityEngine;
-using System;
-using ToolBox.Injection;
 
 namespace ToolBox
 {
@@ -54,3 +51,4 @@ namespace ToolBox
         }
     }
 }
+#endif

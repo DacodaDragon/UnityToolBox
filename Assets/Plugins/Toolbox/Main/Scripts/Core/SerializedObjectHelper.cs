@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿#if UNITY_EDITOR
+using System.Linq;
 using UnityEditor;
 
 namespace ToolBox
@@ -11,4 +12,4 @@ namespace ToolBox
         }
     }
 }
-
+#endif

@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System.IO;
 using ToolBox.Editor;
 using UnityEditor;
@@ -132,3 +133,4 @@ namespace Siren.Utilities.Editor
         }
     }
 }
+#endif
