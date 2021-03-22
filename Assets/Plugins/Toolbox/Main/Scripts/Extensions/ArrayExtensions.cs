@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace ToolBox
 {
-	public static class ArrayExtensions
+    public static class ArrayExtensions
     {
         public static T[] Fill<T>(this T[] src, T value)
         {
