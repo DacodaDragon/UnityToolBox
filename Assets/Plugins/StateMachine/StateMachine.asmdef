@@ -1,7 +1,9 @@
 {
-    "name": "ToolBox",
-    "rootNamespace": "",
-    "references": [],
+    "name": "StateMachine",
+    "rootNamespace": "ToolBox.StateMachine",
+    "references": [
+        "GUID:7ed3132acfcc7654caad843282f240d3"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

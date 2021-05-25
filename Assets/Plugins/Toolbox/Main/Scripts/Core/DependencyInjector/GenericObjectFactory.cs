@@ -5,6 +5,11 @@ namespace ToolBox.Injection
 {
     public class GenericObjectFactory
 	{
+		public static T CreateObject<T>(Type type, string jsonData = null)
+        {
+			return (T)CreateObject(type, null, jsonData);
+		}
+
 		public static object CreateObject(string typeName, Injector injector, string jsonData = null)
         {
 			Type type = TypeHelper.FindTypeByFullName(typeName);
@@ -32,7 +37,7 @@ namespace ToolBox.Injection
                 {
 					instance = JsonUtility.FromJson(jsonData, type);
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
 					instance = Activator.CreateInstance(type);
                 }

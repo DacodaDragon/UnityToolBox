@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bbe759eebe4ff7459b1dcc319a2e842, type: 3}
+  m_Name: StateMachineData
+  m_EditorClassIdentifier: 
+  stateData: '[{"Id":"0a936689-ed67-44a4-99e2-59b2699c99cc","Position":{"x":307.0,"y":155.0,"w":150.0,"h":75.0}},{"Id":"5a382e27-28c1-45f1-87c6-bf128e699291","Position":{"x":307.0,"y":333.0,"w":150.0,"h":75.0}}]'
+  transitionData: '[{"fromState":"0a936689-ed67-44a4-99e2-59b2699c99cc","toState":"5a382e27-28c1-45f1-87c6-bf128e699291"},{"fromState":"5a382e27-28c1-45f1-87c6-bf128e699291","toState":"0a936689-ed67-44a4-99e2-59b2699c99cc"}]'

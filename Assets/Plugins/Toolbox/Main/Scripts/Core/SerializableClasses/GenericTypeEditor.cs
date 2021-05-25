@@ -9,7 +9,6 @@ namespace ToolBox
     [CanEditMultipleObjects]
     public partial class GenericTypeEditor : PropertyDrawer
     {
-        private bool _objectToggled = false;
         private int _SelectedIndex = 0;
         private string[] types;
 

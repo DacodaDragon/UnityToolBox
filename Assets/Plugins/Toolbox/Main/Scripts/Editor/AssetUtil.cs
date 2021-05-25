@@ -38,7 +38,7 @@ namespace ToolBox.Editor
 
 		public static ScriptableObject CreateAt(string path, Type type)
 		{
-			return CreateAt(path, type, nameof(type));
+			return CreateAt(path, type, type.Name);
 		}
 
 		private static ScriptableObject CreateAt(string path, Type type, string assetName)

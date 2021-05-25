@@ -4,7 +4,7 @@ using UnityEditor;
 
 namespace ToolBox.Editor
 {
-	public class ToolBoxWindow : EditorWindow
+    public abstract class ToolBoxWindow : EditorWindow
 	{
 		public bool ButtonPressed(KeyCode key)
 		{
